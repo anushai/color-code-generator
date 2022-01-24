@@ -1,0 +1,31 @@
+h2,
+p {
+  text-align: center;
+}
+h2 {
+  font-size: 32px;
+  margin: 20px 0px 11px;
+}
+p {
+  font-size: 17px;
+  line-height: 32px;
+  margin: 0;
+}
+.header {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.mb-2 {
+  margin-bottom: 2%;
+}
+.ml-2 {
+  margin-left: 2%;
+}
+.input-style {
+  height: 30px;
+}
+input[type="text"]:focus {
+  border-color: lightblue;
+  outline: 0 none;
+}

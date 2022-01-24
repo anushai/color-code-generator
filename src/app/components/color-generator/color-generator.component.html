@@ -1,0 +1,12 @@
+<div class="header">
+    <h2>Color Generator</h2>
+    <p>Type the word color and we will show all related colors</p>
+
+    <div class="form-group ml-2 mb-2">
+        <label for="outlinefield"> Enter the Color </label>
+        <input class="form-control input-style" type="text" [(ngModel)]="selectedColor" />
+    </div>
+
+    <app-masonry-grid [selectedColor]="selectedColor"></app-masonry-grid>
+
+</div>
